@@ -1,3 +1,5 @@
 # raspberrypi
 
-Hier komen mijn Raspberry scriptjes die ik ooit gemaakt heb...
+Here are some Raspberry pi script i once created.
+
+
