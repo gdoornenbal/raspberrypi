@@ -25,7 +25,7 @@ case $1 in
   ## begin list of commands.
   ## most of these came from http://www.cec-o-matic.com/
   ## more can be added, including proprietary commands.
-  "tvon")     echo "on 0" | cec-client -s && sleep 3 &&  echo "as" | cec-client -s ;;
+  "tvon")     echo "on 0" | cec-client -s && sleep 5 &&  echo "as" | cec-client -s ;;
   "tvoff")    echo "standby 0" | cec-client -s ;;
   "monoff")   sudo tvservice -o ;;
   "monon")    sudo tvservice -p && sudo chvt 6 && sudo chvt 7 ;;
