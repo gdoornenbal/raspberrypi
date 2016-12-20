@@ -2,9 +2,11 @@
 #
 # Manage power state from your Monitor or TV.
 # must be called with a parameter: hdmi-power.sh [command]
-# will send the associated command to the TV or Monitor over CEC or HDMI-status.
+# will send the associated command to the TV or Monitor over CEC or HDMI-status. 
 #
 # shameless copied from https://www.raspberrypi.org/forums/viewtopic.php?f=91&t=67899
+#
+# how to install cec-client: sudo apt-get install cec-utils
 # 
 # V 0.1 09-12-2016 by Gerrit Doornenbal
 #  - added options for tvservice
